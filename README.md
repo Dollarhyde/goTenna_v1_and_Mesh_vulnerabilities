@@ -1,6 +1,6 @@
 # goTenna v1 and goTenna Mesh Vulnerabilities
 
-## CVE-2025-32881
+## [CVE-2025-32881](https://www.cve.org/CVERecord?id=CVE-2025-32881)
 [Description]  
 An issue was discovered on goTenna v1 devices with app 5.5.3 and firmware 0.25.5. By default, the GID is the user's phone number unless they specifically opt out. A phone number is very sensitive information because it can be tied back to individuals. The app does not encrypt the GID in messages.
 
@@ -33,7 +33,7 @@ https://gotenna.com
 
 ---
 
-## CVE-2025-32882
+## [CVE-2025-32882](https://www.cve.org/CVERecord?id=CVE-2025-32882)
 [Description]  
 An issue was discovered on goTenna v1 devices with app 5.5.3 and firmware 0.25.5. The app uses a custom implementation of encryption without any additional integrity checking mechanisms. This leaves messages malleable to an attacker that can access the message.
 
@@ -66,7 +66,7 @@ https://gotenna.com
 
 ---
 
-## CVE-2025-32883
+## [CVE-2025-32883](https://www.cve.org/CVERecord?id=CVE-2025-32883)
 [Description]  
 An issue was discovered on goTenna Mesh devices with app 5.5.3 and firmware 1.1.12. The app there makes it possible to inject any custom message (into existing mesh networks) with any GID and Callsign via a software defined radio. This can be exploited if the device is being used in an unencrypted environment or if the cryptography has already been compromised.
 
@@ -99,7 +99,7 @@ https://gotenna.com
 
 ---
 
-## CVE-2025-32884
+## [CVE-2025-32884](https://www.cve.org/CVERecord?id=CVE-2025-32884)
 [Description]  
 An issue was discovered on goTenna Mesh devices with app 5.5.3 and firmware 1.1.12. By default, a GID is the user's phone number unless they specifically opt out. A phone number is very sensitive information because it can be tied back to individuals. The app does not encrypt the GID in messages.
 
@@ -132,7 +132,7 @@ https://gotenna.com
 
 ---
 
-## CVE-2025-32885
+## [CVE-2025-32885](https://www.cve.org/CVERecord?id=CVE-2025-32885)
 [Description]  
 An issue was discovered on goTenna v1 devices with app 5.5.3 and firmware 0.25.5. The app there makes it possible to inject any custom message (into existing v1 networks) with any GID and Callsign via a software defined radio. This can be exploited if the device is being used in an unencrypted environment or if the cryptography has already been compromised.
 
@@ -165,7 +165,7 @@ https://gotenna.com
 
 ---
 
-## CVE-2025-32886
+## [CVE-2025-32886](https://www.cve.org/CVERecord?id=CVE-2025-32886)
 [Description]  
 An issue was discovered on goTenna v1 devices with app 5.5.3 and firmware 0.25.5. All packets sent over RF are also sent over UART with USB Shell, allowing someone with local access to gain information about the protocol and intercept sensitive data.
 
@@ -198,7 +198,7 @@ https://gotenna.com
 
 ---
 
-## CVE-2025-32887
+## [CVE-2025-32887](https://www.cve.org/CVERecord?id=CVE-2025-32887)
 [Description]  
 An issue was discovered on goTenna v1 devices with app 5.5.3 and firmware 0.25.5. A command channel includes the next hop, which can be intercepted and used to break frequency hopping.
 
@@ -231,7 +231,7 @@ https://gotenna.com
 
 ---
 
-## CVE-2025-32888
+## [CVE-2025-32888](https://www.cve.org/CVERecord?id=CVE-2025-32888)
 [Description]  
 An issue was discovered on goTenna Mesh devices with app 5.5.3 and firmware 1.1.12. The verification token used for sending SMS through a goTenna server is hardcoded in the app.
 
@@ -264,7 +264,7 @@ https://gotenna.com
 
 ---
 
-## CVE-2025-32889
+## [CVE-2025-32889](https://www.cve.org/CVERecord?id=CVE-2025-32889)
 [Description]  
 An issue was discovered on goTenna v1 devices with app 5.5.3 and firmware 0.25.5. The verification token used for sending SMS through a goTenna server is hardcoded in the app.
 
@@ -297,7 +297,7 @@ https://gotenna.com
 
 ---
 
-## CVE-2025-32890
+## [CVE-2025-32890](https://www.cve.org/CVERecord?id=CVE-2025-32890)
 [Description]  
 An issue was discovered on goTenna Mesh devices with app 5.5.3 and firmware 1.1.12. It uses a custom implementation of encryption without any additional integrity checking mechanisms. This leaves messages malleable to an attacker that can access the message.
 
